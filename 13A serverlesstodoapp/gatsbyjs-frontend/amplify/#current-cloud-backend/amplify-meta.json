@@ -1,0 +1,33 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-gatsbyjsfrontend-dev-183440-authRole",
+            "UnauthRoleArn": "arn:aws:iam::902276074505:role/amplify-gatsbyjsfrontend-dev-183440-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::902276074505:role/amplify-gatsbyjsfrontend-dev-183440-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-gatsbyjsfrontend-dev-183440-deployment",
+            "UnauthRoleName": "amplify-gatsbyjsfrontend-dev-183440-unauthRole",
+            "StackName": "amplify-gatsbyjsfrontend-dev-183440",
+            "StackId": "arn:aws:cloudformation:us-east-2:902276074505:stack/amplify-gatsbyjsfrontend-dev-183440/0a292ff0-8981-11eb-a02a-024b98a38d1a"
+        }
+    },
+    "api": {
+        "serverlesstodoapp-api": {
+            "service": "AppSync",
+            "output": {
+                "authConfig": {
+                    "defaultAuthentication": {
+                        "authenticationType": "API_KEY"
+                    },
+                    "additionalAuthenticationProviders": null
+                },
+                "GraphQLAPIIdOutput": "kklxjz2jlnbqfht5arqrz6rhiy",
+                "GraphQLAPIEndpointOutput": "https://77o24w5hw5ebjfv2iesnr4bahe.appsync-api.us-east-2.amazonaws.com/graphql",
+                "name": "serverlesstodoapp-api",
+                "region": "us-east-2",
+                "GraphQLAPIKeyOutput": "da2-p5o7cgfo2nfcba7fkwwquzonx4"
+            },
+            "lastPushTimeStamp": "2021-03-20T13:35:47.949Z"
+        }
+    }
+}

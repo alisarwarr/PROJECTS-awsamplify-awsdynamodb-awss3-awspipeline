@@ -1,0 +1,33 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-gatsbyjsfrontend-dev-212448-authRole",
+            "UnauthRoleArn": "arn:aws:iam::902276074505:role/amplify-gatsbyjsfrontend-dev-212448-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::902276074505:role/amplify-gatsbyjsfrontend-dev-212448-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-gatsbyjsfrontend-dev-212448-deployment",
+            "UnauthRoleName": "amplify-gatsbyjsfrontend-dev-212448-unauthRole",
+            "StackName": "amplify-gatsbyjsfrontend-dev-212448",
+            "StackId": "arn:aws:cloudformation:us-east-2:902276074505:stack/amplify-gatsbyjsfrontend-dev-212448/ce486f60-8998-11eb-990e-0681800f1aee"
+        }
+    },
+    "api": {
+        "lollypopapp-api": {
+            "service": "AppSync",
+            "output": {
+                "authConfig": {
+                    "defaultAuthentication": {
+                        "authenticationType": "API_KEY"
+                    },
+                    "additionalAuthenticationProviders": null
+                },
+                "GraphQLAPIIdOutput": "nuktd4e4pzgyvizlytdcljxzim",
+                "GraphQLAPIEndpointOutput": "https://epftxajvyfa4fneur524ptypju.appsync-api.us-east-2.amazonaws.com/graphql",
+                "name": "lollypopapp-api",
+                "region": "us-east-2",
+                "GraphQLAPIKeyOutput": "da2-2unl2uftl5aw7eyiszbet6fd5e"
+            },
+            "lastPushTimeStamp": "2021-03-20T16:25:45.785Z"
+        }
+    }
+}
